@@ -1,5 +1,6 @@
 # TODO
 # Add support for new janus:
+# - Add task to deal with gitconfig
 # - Add vim's plugins via git submodules in /vim/janus (will be symlink to ~.janus/)
 desc 'Delete symlink to *.local if any, and create new ones'
 task :delete_symlinks do
