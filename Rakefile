@@ -1,5 +1,5 @@
 # TODO
-# - This rake task should run in any directory, not only HOME
+# - This rake task should run in any directory, not only $HOME
 desc 'Delete symlink to *.local if any, and create new ones'
 task :delete_symlinks do
   # Check the existence of files and folders, and if true, delete it
