@@ -1,7 +1,7 @@
 # TODO
 # Add support for new janus:
-# - For bash, move the RAKE file to the root & add tasks for remove & symlink the config files
-# - Checkout the plugins in that directory (git submodules?)
+# - Add tasks for remove & symlink the config files
+# - Add vim's plugins via git submodules in /vim/janus (will be symlink to ~.janus/)
 desc 'Delete symlink to *.local if any, and create new ones'
 task :delete_symlinks do
   f = File.expand_path('~/.vimrc.after')
