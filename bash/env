@@ -1,0 +1,7 @@
+# those nice colors
+export CLICOLOR=1
+# Node JS stuff
+export NARWHAL_ENGINE=jsc
+export PATH="/usr/local/narwhal/bin:$PATH"
+# Btw, the -w argument make the command wait for Vim to close the file, before continuing
+export EDITOR='vim -w'

@@ -1,0 +1,7 @@
+set background=dark
+colorscheme zenburn
+
+set guioptions=aAce
+syntax enable
+set transparency=7
+set guifont=Monaco:h12

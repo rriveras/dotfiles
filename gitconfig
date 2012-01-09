@@ -1,0 +1,22 @@
+[user]
+  name = Roberto Rivera
+  email = rriveras@gmail.com
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+[color]
+  ui = auto
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[core]
+  editor = mvim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
