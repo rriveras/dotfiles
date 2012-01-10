@@ -1,5 +1,3 @@
-# TODO
-# - This rake task should run in any directory, not only $HOME
 desc 'Delete symlink to *.local if any, and create new ones'
 task :delete_symlinks do
   # Check the existence of files and folders, and if true, delete it
@@ -19,12 +17,14 @@ task :delete_symlinks do
 end
 desc 'Create symlinks'
 task :create_symlinks => :delete_symlinks do
-  system 'ln -s ~/dotfiles/vim/vimrcbefore ~/.vimrc.before'
-  system 'ln -s ~/dotfiles/vim/vimrcafter ~/.vimrc.after'
-  system 'ln -s ~/dotfiles/vim/janus ~/.janus'
-  system 'ln -s ~/dotfiles/bashrc ~/.bashrc'
-  system 'ln -s ~/dotfiles/bash_profile ~/.bash_profile'
-  system 'ln -s ~/dotfiles/gitconfig ~/.gitconfig'
+  fullPath = File.dirname(__FILE__)
+  system 'ln -s ' + fullPath + '/vim/vimrcbefore ~/.vimrc.before'
+  system 'ln -s ' + fullPath + '/vim/vimrcbefore ~/.vimrc.before'
+  system 'ln -s ' + fullPath + '/vim/vimrcafter ~/.vimrc.after'
+  system 'ln -s ' + fullPath + '/vim/janus ~/.janus'
+  system 'ln -s ' + fullPath + '/bashrc ~/.bashrc'
+  system 'ln -s ' + fullPath + '/bash_profile ~/.bash_profile'
+  system 'ln -s ' + fullPath + '/gitconfig ~/.gitconfig'
   puts 'All sylmink created!'
 end
 task :default => :create_symlinks
