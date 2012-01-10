@@ -4,6 +4,7 @@ Config files for **bash**, **vim** and **git**.
 * `clone` this repository.
 * `cd dotfiles`
 * Run `rake`
+* ´source ~/.bash`
 
 ### Notes
 The `rake` task, perform the following operations:

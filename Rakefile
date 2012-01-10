@@ -1,3 +1,5 @@
+# TODO
+# - Add .gitignore_global
 desc 'Delete symlink to *.local if any, and create new ones'
 task :delete_symlinks do
   # Check the existence of files and folders, and if true, delete it
