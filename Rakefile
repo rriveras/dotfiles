@@ -9,12 +9,14 @@ task :delete_symlinks do
   b = File.expand_path('~/.bashrc')
   bp = File.expand_path('~/.bash_profile')
   g = File.expand_path('~/.gitconfig')
+  gi = File.expand_path('~/.gitignore_global')
   system 'rm ~/.vimrc.before' if File.exists?(vb)
   system 'rm ~/.vimrc.after' if File.exists?(va)
   system 'rm -rf ~/.janus' if File.directory?(j)
   system 'rm ~/.bashrc' if File.exists?(b)
   system 'rm ~/.bash_profile' if File.exists?(bp)
   system 'rm ~/.gitconfig' if File.exists?(g)
+  system 'rm ~/.gitignore_global' if File.exists?(gi)
   puts 'Vim file/folder and bash config files (.bashrc, .bash_profile) deleted!'
 end
 desc 'Create symlinks'
@@ -27,6 +29,7 @@ task :create_symlinks => :delete_symlinks do
   system 'ln -s ' + fullPath + '/bashrc ~/.bashrc'
   system 'ln -s ' + fullPath + '/bash_profile ~/.bash_profile'
   system 'ln -s ' + fullPath + '/gitconfig ~/.gitconfig'
+  system 'ln -s ' + fullPath + '/gitignore_global ~/.gitignore_global'
   puts 'All sylmink created!'
 end
 task :default => :create_symlinks
