@@ -1,11 +1,7 @@
 # dotfiles
 Config files for **bash**, **vim** and **git**.
-## Requirements
-* Git (doh!)
-* Ruby
-* macvim 7.3+
 ## Usage
-* `clone` this repository in your `$HOME` directory.
+* `clone` this repository.
 * `cd dotfiles`
 * Run `rake`
 ### Notes
