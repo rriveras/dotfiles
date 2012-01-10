@@ -6,6 +6,7 @@ task :delete_symlinks do
   vb = File.expand_path('~/.vimrc.before')
   va = File.expand_path('~/.vimrc.after')
   j = '~/.janus'
+  bf = '~/.bash'
   b = File.expand_path('~/.bashrc')
   bp = File.expand_path('~/.bash_profile')
   g = File.expand_path('~/.gitconfig')
@@ -13,6 +14,7 @@ task :delete_symlinks do
   system 'rm ~/.vimrc.before' if File.exists?(vb)
   system 'rm ~/.vimrc.after' if File.exists?(va)
   system 'rm -rf ~/.janus' if File.directory?(j)
+  system 'rm -rf ~/.bash' if File.directory?(bf)
   system 'rm ~/.bashrc' if File.exists?(b)
   system 'rm ~/.bash_profile' if File.exists?(bp)
   system 'rm ~/.gitconfig' if File.exists?(g)
@@ -26,6 +28,7 @@ task :create_symlinks => :delete_symlinks do
   system 'ln -s ' + fullPath + '/vim/vimrcbefore ~/.vimrc.before'
   system 'ln -s ' + fullPath + '/vim/vimrcafter ~/.vimrc.after'
   system 'ln -s ' + fullPath + '/vim/janus ~/.janus'
+  system 'ln -s ' + fullPath + '/bash ~/.bash'
   system 'ln -s ' + fullPath + '/bashrc ~/.bashrc'
   system 'ln -s ' + fullPath + '/bash_profile ~/.bash_profile'
   system 'ln -s ' + fullPath + '/gitconfig ~/.gitconfig'
