@@ -4,6 +4,7 @@ Config files for **bash**, **vim** and **git**.
 * `clone` this repository.
 * `cd dotfiles`
 * Run `rake`
+
 ### Notes
 The `rake` task, perform the following operations:
 * Remove the files `~/.bashrc`, `~/.bash_profile`, `~/.vimrc.before`, `~/.vimrc.after` and `~/.gitconfig` and symlink to the new ones in dotfiles.
