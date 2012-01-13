@@ -1,5 +1,5 @@
 set background=dark
-colorscheme zenburn
+colorscheme Tomorrow-Night
 
 set guioptions=aAce
 syntax enable
