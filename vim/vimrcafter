@@ -4,4 +4,4 @@ colorscheme Tomorrow-Night
 set guioptions=aAce
 syntax enable
 set transparency=7
-set guifont=Monaco:h12
+set guifont=Menlo\ bold:h12
