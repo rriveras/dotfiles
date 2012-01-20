@@ -1,1 +1,9 @@
+" Remap de leader
 let mapleader=","
+
+" Remap moving between split windows
+" to use the default hjkl
+nnoremap <silent> <C-J> :wincmd k<CR>
+nnoremap <silent> <C-K> :wincmd j<CR>
+nnoremap <silent> <C-H> :wincmd h<CR>
+nnoremap <silent> <C-L> :wincmd l<CR>
