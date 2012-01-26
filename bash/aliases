@@ -1,3 +1,7 @@
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
 alias tc='top -o command' # alphabetical
+
+# git info, similar to svn info
+# To get the main repo 'git remote -v'
+alias gi='. ~/.bash/git_info.sh'
