@@ -14,19 +14,19 @@ while [ ! -d .git ] && [ ! `pwd` = "/" ]; do cd ..; done
 
 # Show various information about this git directory
 if [ -d .git ]; then
-  echo -e "\033[0;36m############## Remote URL: ###############\033[0m\n"
+  echo -e "\033[0;36m############ Remote URL: ####################\033[0m"
   git remote -v
   echo
 
-  echo -e "\033[0;36m############ Remote Branches: ############\033[0m\n"
+  echo -e "\033[0;36m############ Remote Branches: ###############\033[0m"
   git branch -r
   echo
 
-  echo -e "\033[0;36m############# Local Branches: #############\033[0m\n"
+  echo -e "\033[0;36m############ Local Branches: ################\033[0m"
   git branch
   echo
 
-  echo -e "\033[0;36m############## Latest Commit ##############\033[0m\n"
+  echo -e "\033[0;36m############ Latest Commit ##################\033[0m"
   git log --max-count=1
   echo
 
