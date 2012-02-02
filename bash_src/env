@@ -8,3 +8,6 @@ export EDITOR='vim -w'
 # Setting for the new UTF-8 terminal support in Snow Leopard
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# Export araxis merge for git, svn usage
+export PATH=$PATH:$HOME/.bash/utils

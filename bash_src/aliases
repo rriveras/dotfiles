@@ -4,4 +4,4 @@ alias tc='top -o command' # alphabetical
 
 # git info, similar to svn info
 # To get the main repo 'git remote -v'
-alias gi='. ~/.bash/git_info.sh'
+alias gi='. ~/.bash/utils/git_info.sh'

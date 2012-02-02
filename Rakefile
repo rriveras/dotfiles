@@ -27,12 +27,13 @@ task :create_symlinks => :delete_symlinks do
   system 'ln -s ' + fullPath + '/vim/vimrcbefore ~/.vimrc.before'
   system 'ln -s ' + fullPath + '/vim/vimrcbefore ~/.vimrc.before'
   system 'ln -s ' + fullPath + '/vim/vimrcafter ~/.vimrc.after'
-  system 'ln -s ' + fullPath + '/vim/janus ~/.janus'
-  system 'ln -s ' + fullPath + '/bash ~/.bash'
+  system 'ln -s ' + fullPath + '/vim/janus_src ~/.janus'
+  system 'ln -s ' + fullPath + '/bash_src ~/.bash'
   system 'ln -s ' + fullPath + '/bashrc ~/.bashrc'
   system 'ln -s ' + fullPath + '/bash_profile ~/.bash_profile'
   system 'ln -s ' + fullPath + '/gitconfig ~/.gitconfig'
   system 'ln -s ' + fullPath + '/gitignore_global ~/.gitignore_global'
+  system 'git config --global core.excludesfile ~/.gitignore_global'
   puts 'All sylmink created!'
 end
 task :default => :create_symlinks
