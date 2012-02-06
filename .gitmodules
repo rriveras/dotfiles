@@ -1,6 +1,6 @@
-[submodule "vim/janus/gundo"]
-	path = vim/janus/gundo
+[submodule "vim/janus_src/gundo"]
+	path = vim/janus_src/gundo
 	url = https://github.com/sjl/gundo.vim.git
-[submodule "vim/janus/tomorrow"]
-	path = vim/janus/tomorrow
+[submodule "vim/janus_src/tomorrow"]
+	path = vim/janus_src/tomorrow
 	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git

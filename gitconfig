@@ -1,6 +1,6 @@
 [user]
-  name = Roberto Rivera S.
-  email = rriveras@gmail.com
+	name = Roberto Rivera S.
+	email = rriveras@gmail.com
 [alias]
   st = status
   ci = commit
@@ -15,12 +15,13 @@
 [core]
   editor = mvim
 	excludesfile = /Users/robertorivera/.gitignore_global
-[difftool]
-	prompt = false
-[difftool "Kaleidoscope"]
-	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[merge]
+  tool = araxis
+[diff]
+  tool = araxis
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[diff]
-	tool = Kaleidoscope

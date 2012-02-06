@@ -11,3 +11,4 @@ export LC_ALL=en_US.UTF-8
 
 # Export araxis merge for git, svn usage
 export PATH=$PATH:$HOME/.bash/utils
+# export PATH="~/.bash/utils"
