@@ -4,3 +4,6 @@
 [submodule "vim/janus_src/tomorrow"]
 	path = vim/janus_src/tomorrow
 	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git
+[submodule "vim/janus_src/hemisu"]
+	path = vim/janus_src/hemisu
+	url = https://github.com/noahfrederick/Hemisu.git
