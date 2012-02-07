@@ -1,8 +1,8 @@
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme Hemisu
 
 set guioptions=aAce
 syntax enable
-set transparency=7
+set transparency=10
 "set guifont=Menlo\ bold:h12
 set guifont=Menlo:h14
