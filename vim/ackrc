@@ -1,0 +1,14 @@
+# Add file type for ack to search
+--type-set=haml=.haml
+--type-set=sass=.sass
+--type-set=scss=.scss
+--type-set=scss=.less
+--type-set=erb=.erb
+--type-set=coffee=.coffee
+
+# Add extensions to a certeain file TYPE
+--type-add=ruby=.rake
+--type-add=css=.less
+
+# List directories to ignore
+--ignore-dir=tmp
