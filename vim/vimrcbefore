@@ -7,3 +7,11 @@ nnoremap <silent> <C-J> :wincmd k<CR>
 nnoremap <silent> <C-K> :wincmd j<CR>
 nnoremap <silent> <C-H> :wincmd h<CR>
 nnoremap <silent> <C-L> :wincmd l<CR>
+
+" Toggle folds opened/closed by pressing Ctrl+f.
+" If :set foldmethod=manual, visually select some lines,
+" then press Ctrl+f to create a fold.
+inoremap <C-F> <C-O>za
+nnoremap <C-F> za
+onoremap <C-F> <C-C>za
+vnoremap <C-F> zf
