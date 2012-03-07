@@ -14,7 +14,7 @@
   untracked = cyan
 [core]
   editor = mvim
-	excludesfile = /Users/robertorivera/.gitignore_global
+	excludesfile = /Users/rriveras/.gitignore_global
 [difftool "kdiff3"]
     path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
     trustExitCode = false
