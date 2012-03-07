@@ -47,5 +47,3 @@ fi
 
 # Now we include it in our PROMPT
 PS1="\[$EWHITE\]\w \[$EMAGENTA\]\$(__git_ps1 ' [%s]')\[$EWHITE\]\n>\[$NO_COLOR\] "
-# Set the title bar to the current directory
-PROMPT_COMMAND='echo -ne "\033]0; ${PWD/$HOME/~}\007"'
