@@ -1,11 +1,12 @@
-# those nice colors
-export CLICOLOR=1
-# Node JS stuff
-export NARWHAL_ENGINE=jsc
-export PATH="/usr/local/narwhal/bin:$PATH"
-# Btw, the -w argument make the command wait for Vim to close the file, before continuing
+# The -w argument make the command wait for Vim to close the file, before continuing
 export EDITOR='vim -w'
 # Setting for the new UTF-8 terminal support in Snow Leopard
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-
+#export LC_CTYPE=en_US.UTF-8
+#export LC_ALL=en_US.UTF-8
+# Only if RVM it's installed
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
+# Load RVM functions
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# Load compiler only if https://github.com/kennethreitz/osx-gcc-installer is installed
+export CC=gcc-4.2
