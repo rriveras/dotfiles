@@ -1,6 +1,8 @@
 export CLICOLOR=1
 export NARWHAL_ENGINE=jsc
 export PATH="/usr/local/narwhal/bin:$PATH"
+# this line add brew to the path before the usr/bin path
+export PATH=/usr/local/bin:$PATH
 # Friendly colors
 NO_COLOR='\e[0m' #disable any colors
 RED='\e[0;31m'

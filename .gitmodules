@@ -7,3 +7,6 @@
 [submodule "vim/janus_src/hemisu"]
 	path = vim/janus_src/hemisu
 	url = https://github.com/noahfrederick/Hemisu.git
+[submodule "vim/janus_src/vim-less"]
+	path = vim/janus_src/vim-less
+	url = https://github.com/groenewege/vim-less.git
