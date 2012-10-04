@@ -15,20 +15,14 @@
 [core]
   editor = mvim
 	excludesfile = /Users/rriveras/.gitignore_global
-[difftool "kdiff3"]
-    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-    trustExitCode = false
-[difftool]
-    prompt = false
-[diff]
-    tool = kdiff3
-[mergetool "kdiff3"]
-    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-    trustExitCode = false
-[mergetool]
-    keepBackup = false
 [merge]
-    tool = kdiff3
+    tool = p4merge
+    keepBackup = false
+[mergetool "p4merge"]
+    cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
