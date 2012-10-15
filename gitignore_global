@@ -37,6 +37,7 @@ Icon?
 Thumbs.db
 .Spotlight-V100
 .Trashes
+*.esproj
 
 # VIM specific #
 ################
