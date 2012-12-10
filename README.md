@@ -13,5 +13,4 @@ The `rake` task, perform the following operations:
 * Remove the folder, if any, `~/.janus/` and symlink to the janus folder in dotfiles.
 * Run `git config --global core.excludesfile ~/.gitignore_global` to add that file to global git config.
 * If you want to customize something, do it in the dotfiles folder, and then run `rake`.
-
-
+* Run manually `memcached` and `redis`: `/usr/local/bin/memcached`, `redis-server /usr/local/etc/redis.conf`
