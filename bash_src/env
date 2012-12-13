@@ -6,10 +6,10 @@ export EDITOR='vim -w'
 # This put in our path NodeJS, so first we should run `brew install
 # node`
 export NODE_PATH="/usr/local/lib/node"
-export PATH="/usr/local/share/npm/bin:$PATH"
+#export PATH="/usr/local/share/npm/bin:$PATH"
 # Only if RVM it's installed
 # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/share/npm/bin:$PATH
 # Load RVM functions
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 # Load compiler only if https://github.com/kennethreitz/osx-gcc-installer is installed

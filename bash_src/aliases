@@ -5,3 +5,18 @@ alias tc='top -o command' # alphabetical
 # git info, similar to svn info
 # To get the main repo 'git remote -v'
 alias gi='. ~/.bash/git_info.sh'
+# Count files some type in a directory structure recursively
+# Mimic this:
+# $ find Music/ -name "*.mp3" | wc -l
+# The function takes 2 arguments:
+#   - The directory/folder to look (require)
+#   - The extension of the file to count (optional)
+# IE:
+# countin Music/ mp3
+countin () {
+  if [ -z "$2" ]; then
+    find "$1" | wc -l;
+  else
+    find "$1" -name "*.$2" | wc -l;
+  fi
+}
