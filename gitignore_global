@@ -47,6 +47,7 @@ Session.vim
 
 # RUBYMINE #
 ############
+.idea/*
 .idea/workspace.xml
 
 # RAILS specific #
