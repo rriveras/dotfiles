@@ -1,6 +1,8 @@
 [user]
 	name = Roberto Rivera S.
 	email = rriveras@gmail.com
+[push]
+  default = simple
 [alias]
   st = status
   ci = commit
