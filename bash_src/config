@@ -40,6 +40,10 @@ BMAGENTA='\e[45m'
 BCYAN='\e[46m'
 BWHITE='\e[47m'
 
+# Since git 1.8.x, `__git_ps1` function is in a differente location
+# https://github.com/git/git/commit/af31a456b4cd38f2630ed8e556e23954f806a3cc
+# So, we source where brew put this new file
+source /usr/local/etc/bash_completion.d/git-prompt.sh
 # To get information from git (if the current directory is a git one), we need to install
 # bash-completion (brew install bash-completion)
 # Then, we check it
