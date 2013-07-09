@@ -8,3 +8,6 @@ syntax enable
 "set guifont=Menlo\ bold:h12
 set guifont=Menlo:h14
 set transparency=12
+
+" removed vendor/gems from the ignore list
+set wildignore-=*/vendor/gems/*
