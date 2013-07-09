@@ -1,5 +1,7 @@
-set background=dark
-colorscheme Hemisu
+"set background=light
+"colorscheme Hemisu
+colorscheme tutticolori
+"colorscheme seoul256-light
 
 set guioptions=aAce
 syntax enable

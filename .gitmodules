@@ -3,10 +3,19 @@
 	url = https://github.com/sjl/gundo.vim.git
 [submodule "vim/janus_src/tomorrow"]
 	path = vim/janus_src/tomorrow
-	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git
+	url = https://github.com/d11wtq/tomorrow-theme-vim.git
 [submodule "vim/janus_src/hemisu"]
 	path = vim/janus_src/hemisu
 	url = https://github.com/noahfrederick/Hemisu.git
 [submodule "vim/janus_src/vim-less"]
 	path = vim/janus_src/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "vim/janus_src/TuttiColori-Colorscheme"]
+	path = vim/janus_src/TuttiColori-Colorscheme
+	url = https://github.com/vim-scripts/TuttiColori-Colorscheme.git
+[submodule "vim/janus_src/solarized"]
+	path = vim/janus_src/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/janus_src/seoul256"]
+	path = vim/janus_src/seoul256
+	url = https://github.com/junegunn/seoul256.vim.git
