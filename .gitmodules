@@ -19,3 +19,6 @@
 [submodule "vim/janus_src/seoul256"]
 	path = vim/janus_src/seoul256
 	url = https://github.com/junegunn/seoul256.vim.git
+[submodule "vim/janus_src/tagbar"]
+	path = vim/janus_src/tagbar
+	url = https://github.com/majutsushi/tagbar.git
