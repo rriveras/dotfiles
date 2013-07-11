@@ -22,3 +22,6 @@
 [submodule "vim/janus_src/tagbar"]
 	path = vim/janus_src/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/janus_src/unite"]
+	path = vim/janus_src/unite
+	url = https://github.com/Shougo/unite.vim.git
