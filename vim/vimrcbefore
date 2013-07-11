@@ -20,4 +20,4 @@ vnoremap <C-F> zf
 
 
 nmap <F8> :TagbarToggle<CR>
-nmap <Leader>b :Unite buffer<CR>
+nmap <Leader>b :Unite -quick-match buffer<CR>
