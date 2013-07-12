@@ -70,3 +70,7 @@ rerun.txt
 # Textmate project files #
 ##########################
 /*.tmpproj
+
+# tags
+#######
+tags
