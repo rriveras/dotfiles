@@ -1,7 +1,8 @@
 "set background=light
 "colorscheme Hemisu
-colorscheme tutticolori
-"colorscheme seoul256-light
+"colorscheme tutticolori
+colorscheme seoul256-light
+"colorscheme codeschool
 
 set guioptions=aAce
 syntax enable
