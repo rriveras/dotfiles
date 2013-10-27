@@ -28,3 +28,6 @@
 [submodule "vim/janus_src/ag"]
 	path = vim/janus_src/ag
 	url = https://github.com/rking/ag.vim.git
+[submodule "vim/janus_src/codeschool-vim-theme"]
+	path = vim/janus_src/codeschool-vim-theme
+	url = git@github.com:29decibel/codeschool-vim-theme.git
