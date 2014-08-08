@@ -4,6 +4,7 @@
 "colorscheme seoul256-light
 colorscheme jellybeans+
 "colorscheme codeschool
+"colorscheme base16-paraiso
 
 set guioptions=aAce
 syntax enable
