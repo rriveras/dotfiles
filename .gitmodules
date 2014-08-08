@@ -31,3 +31,6 @@
 [submodule "vim/janus_src/codeschool-vim-theme"]
 	path = vim/janus_src/codeschool-vim-theme
 	url = git@github.com:29decibel/codeschool-vim-theme.git
+[submodule "vim/janus_src/base16-vim"]
+	path = vim/janus_src/base16-vim
+	url = git@github.com:chriskempson/base16-vim.git
